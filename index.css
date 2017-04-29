@@ -1,0 +1,46 @@
+html, body {
+    max-width: 1440px
+}
+
+body {
+    /*font-family: Interstate-Light;*/
+    color: #333;
+    font-size: 16px
+}
+
+#topBlackBar{
+   top:0;
+   left:0;
+}
+
+.full-width {
+    max-width: 1440px;
+    width: 1440px
+}
+
+.header-out {
+    height: 36px;
+    background-color: black;
+    width: 1440px
+}
+
+#citiBanner{
+    top: 25.5px
+}
+
+.citibanner{
+	background: url(images/BannerBackColor.png) repeat-x 0 0;
+    height: 86.1px;
+    width: 1440px
+}
+
+.logo{
+    margin-left: 90.5px;
+    margin-top: 23.3px;
+    height: 38px
+}
+
+.posfix{
+    position: fixed;
+    z-index: 2
+}
