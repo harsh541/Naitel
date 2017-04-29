@@ -1,0 +1,26 @@
+{
+  "name": "naitel",
+  "version": "1.0.0",
+  "description": "A web-app designed using Citi Bank's APIs to assist freelance workers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahNaiman/Naitel.git"
+  },
+  "author": "Noah Naiman, Harsh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoahNaiman/Naitel/issues"
+  },
+  "homepage": "https://github.com/NoahNaiman/Naitel#readme"
+}
