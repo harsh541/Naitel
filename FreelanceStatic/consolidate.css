@@ -89,7 +89,7 @@ body {
     border-style: solid;
     border-color: #337ab7;
     cursor: pointer;
-    margin-left: -9px;
+    margin-left: -8px;
     margin-top: 0px;
 }
 
@@ -115,18 +115,53 @@ body {
 }
 
 .dropdown-content a:hover{
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
+#plus{
+    position: absolute;
+    font-size: 46px;
+    margin-top: -110px;
+    margin-left: 200px;
+}
+
+#equals{
+    position: absolute;
+    font-size: 46px;
+    margin-top: -110px;
+    margin-left: 600px;
+}
+
+#money-goal{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 250px;
+    font-size: 46px;
+}
 input[type=number]{
     width: 40%;
+    height: 148px;
     padding: 12px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
-    border: solid red;
+    border-style: solid;
+    border-color: #337ab7;
     border-radius: 2px;
+    font-size: 46px;
+}
+
+#calculate{
+    position: absolute;
+    background-color: #337ab7;
+    color: white;
+    padding: 25px;
+    font-size: 26px;
+    border-style: solid;
+    border-color: #337ab7;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 520px;
 }

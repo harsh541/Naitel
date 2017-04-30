@@ -29,10 +29,14 @@
     <a onClick="return chooseCS131();">CS131</a>
   </div>
   	</div>
+  	<p id="plus">+</p>
   	<form id="money-goal">
 		  $
 		  <input type="number" name="goal">
 	</form>
+
+	<p id="equals">=</p>
+	<button id="calculate" onClick="return calculateHours();">Click To Calculate</button>
   </div>
 
   <script>
@@ -46,6 +50,12 @@
 
   	function chooseCS131(){
   		document.getElementById("job-button").innerHTML = "CS131";
+  	}
+
+  	function calculateHours(){
+  		var whichJob = document.getElementById("job-button").innerHTML;
+  		var myGoal = document.getElementById("money-goal").value;
+  		document.getElementById("calculate").innerHTML = "At current rate: 40 Hours. Click again to recalculate.";
   	}
   </script>
 </body>
