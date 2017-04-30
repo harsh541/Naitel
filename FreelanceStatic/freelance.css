@@ -1,0 +1,164 @@
+html, body {
+    max-width: 1440px
+}
+
+body {
+    /*font-family: Interstate-Light;*/
+    color: #333;
+    font-size: 16px
+}
+
+#topBlackBar{
+   top:0;
+   left:0;
+}
+
+.full-width {
+    max-width: 1440px;
+    width: 1440px
+}
+
+.header-out {
+    height: 36px;
+    background-color: black;
+    width: 1441px
+}
+
+#citiBanner{
+    top: 25.5px
+}
+
+.citibanner{
+    background: url(images/BannerBackColor.png) repeat-x 0 0;
+    height: 86.1px;
+    width: 1447px
+}
+
+.logo{
+    margin-left: 90.5px;
+    margin-top: 23.3px;
+    height: 38px;
+}
+
+#subnav{
+    margin-left: -12px;
+    z-index: 50;
+    top: 110px;
+    width: 100%;
+    height: 50px;
+    margin-top: 111px;
+    padding: 0 10px;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125);
+}
+
+.maxWidthInner {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative
+}
+
+.posfix{
+    position: fixed;
+    z-index: 2
+}
+
+#subnav_inner {
+    z-index: 15;
+    width: auto;
+    height: 50px;
+    float: left;
+}
+
+#subnav-header{
+    position: relative;
+    bottom: 23px;
+    left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#jobs-block{
+    position: fixed;
+    width: 219px;
+    margin-left: -14px;
+    border-bottom: 1px solid #979797;
+    height: 578px;
+   /* border-top: 5px solid #000;*/
+    top: 160px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#jobs-block p{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#jobs-header{
+    width: 219px;
+    margin-left: 0px;
+    border-bottom: 2px solid black;
+    border-top: 5px solid #000;
+    height: 56px;
+    top: 160px;
+    background-color: #cbcac9;
+}
+
+#jobs-header p{
+    margin-top: 3px;
+    /*margin-left: 75px;*/
+    font-size: 40px;
+}
+
+#big-container{
+    position: absolute;
+    height:578px;
+    width: 1228px;
+    margin-left: 205px;
+}
+
+.quadrant{
+    position: absolute;
+    height: 289px;
+    width: 614px;
+}
+
+.quadrant{
+    position: absolute;
+    height: 289px;
+    width: 614px;
+}
+
+.quadrant a{
+    margin-left: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+     -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.quadrant a: hover{
+    color: white;
+    font-size: 40px;
+
+}
+
+#quad-1{
+}
+
+#quad-2{
+    margin-top: 289px;
+}
+
+#quad-3{
+    margin-left: 614px;
+}
+#quad-4{
+    margin-top: 289px;
+    margin-left: 614px;
+}
+

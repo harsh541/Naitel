@@ -1,0 +1,22 @@
+{
+  "customerId": "0bcbbeb6-54cd-4d09-af1e-1ea649c335a4",
+  "customerName": {
+    "firstName": "LOUIS",
+    "lastName": "WILLIAMS"
+  },
+  "email": [
+    {
+      "emailAddress": "louis.williams@xyz.com"
+    }
+  ],
+  "addresses": [
+    {
+      "addressLine1": "652 LOVER DR",
+      "addressLine2": "APT 155",
+      "city": "IRVING",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "75070"
+    }
+  ]
+}

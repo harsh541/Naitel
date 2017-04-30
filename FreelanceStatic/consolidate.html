@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consolidate Your Goals</title>
+	<link rel="stylesheet" type="text/css" href="Consolidate.css">
+</head>
+<body>
+	<div id="topBlackBar" class="full-width posfix">
+    <div class="header-out"></div>
+  </div>
+  <div id="citiBanner" class="full-width posfix" style="margin-left: -14px">
+    <div class="citibanner">
+      <img class="logo" src="/images/CitiLogo.png">
+    </div>
+  </div>
+ <div id="subnav">
+    <div class="maxWidthInner">
+      <div id="subnav_inner">
+        <p id="subnav-header">What is your goal, Louis?</p>
+      </div>
+    </div>
+  </div>
+  <div id="money-to-goal">
+  	<div class="dropdown">
+  		<button id="job-button" class="dropbtn">Job</button>
+  <div class="dropdown-content">
+    <a onClick="return chooseUber();">Uber</a>
+    <a onClick="return chooseLyft();">Lyft</a>
+    <a onClick="return chooseCS131();">CS131</a>
+  </div>
+  	</div>
+  	<form id="money-goal">
+		  $
+		  <input type="number" name="goal">
+	</form>
+  </div>
+
+  <script>
+  	function chooseUber(){
+  		document.getElementById("job-button").innerHTML = "Uber";
+  	}
+
+  	function chooseLyft(){
+  		document.getElementById("job-button").innerHTML = "Lyft";
+  	}
+
+  	function chooseCS131(){
+  		document.getElementById("job-button").innerHTML = "CS131";
+  	}
+  </script>
+</body>
+</html>
