@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ <!--  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="/manage.css">
+	<title>Manage Your Freelance Work</title>
+</head>
+<body>
+	<div id="topBlackBar" class="full-width posfix">
+    	<div class="header-out"></div>
+  	</div>
+  	<div id="citiBanner" class="full-width posfix" style="margin-left: -14px">
+    	<div class="citibanner">
+      		<img class="logo" src="/images/CitiLogo.png">
+    	</div>
+  </div>
+   <div id="subnav">
+    	<div class="maxWidthInner">
+	      	<div id="subnav_inner">
+	        	<p id="subnav-header">Manage Your Freelance Work</p>
+	    	</div>
+		</div>
+  </div>
+  <div id="yourJobs">
+    <div id="jobs-header">
+      <p>Your Jobs</p>
+    </div>
+    <div id="jobs">
+      <p>-Uber Driver</p>
+      <p>-Lyft Driver</p>
+    </div>
+  </div>
+  <div id="addJob">
+  	<div id="add">
+    	<p>Add a Job</p>
+    	<form id ="jobForm" onsubmit="return getJob();">
+    		<input type="text" class="jobInput" name="NewJob">
+    	</form>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  function getJob(){
+    var job = document.getElementById("jobForm").elements[0].value;
+    var node = document.createElement('P');
+    var newP = document.createTextNode('-' + job);
+    node.appendChild(newP)
+    document.getElementById("jobs").appendChild(node);
+    document.getElementsByName('NewJob')[0].value='';
+
+    return false;
+  }
+</script>
+
+</body>
+</html>

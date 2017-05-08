@@ -1,0 +1,39 @@
+{
+  "accountGroupSummary": [
+    {
+      "accountGroup": "CREDITCARD",
+      "creditCardAccountsSummary": [
+        {
+          "productName": "Citi Costco Anywhere Card",
+          "displayAccountNumber": "Citi Costco Anywhere Card - 0019",
+          "accountId": "2016971048",
+          "currencyCode": "USD",
+          "accountClassification": "ASSET",
+          "accountStatus": "OPEN",
+          "outstandingBalance": 7644.83,
+          "creditLimit": 5000,
+          "availableCredit": 1513.04,
+          "paymentDueDate": "2017-02-22",
+          "minimumDueAmount": 0
+        },
+        {
+          "productName": "Citi Choice Visa",
+          "displayAccountNumber": "Citi Choice Visa - 3250",
+          "accountId": "2016257035",
+          "currencyCode": "USD",
+          "accountClassification": "ASSET",
+          "accountStatus": "OPEN",
+          "outstandingBalance": 2955.84,
+          "creditLimit": 1000,
+          "availableCredit": 1504.71,
+          "paymentDueDate": "2017-02-22",
+          "minimumDueAmount": 0
+        }
+      ],
+      "totalOutstandingBalance": {
+        "localCurrencyCode": "USD",
+        "localCurrencyBalanceAmount": 10600.67
+      }
+    }
+  ]
+}
